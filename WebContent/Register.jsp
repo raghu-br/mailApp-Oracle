@@ -7,6 +7,38 @@
 <title>Register Page</title>
 </head>
 <body>
-
+	<form action="RegisterServlet">
+		<table style="table-layout: fixed;">
+			<tr>
+				<td>EmailId</td>
+				<td><input type="text" name="email"><br /> <br /></td>
+			</tr>
+			<tr>
+				<td>Password</td>
+				<td><input type="password" name="password"><br /> <br /></td>
+			</tr>
+			<tr>
+				<td>Name</td>
+				<td><input type="text" name="name"><br /> <br /></td>
+			</tr>
+			<tr>
+				<td>Gender</td>
+				<td>Male<input type="radio" name="gender" value="male">Female<input
+					type="radio" name="gender" value="female" /><br /> <br /></td>
+			</tr>
+			<tr>
+				<td>Contact Number:</td>
+				<td><input type="text" name="mname" /><br /> <br /></td>
+			</tr>
+			<tr>
+				<td>Country:</td>
+				<td><input type="text" name="country" /><br /> <br /></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="submit" value="Submit" /></td>
+			</tr>
+		</table>
+	</form>
 </body>
 </html>

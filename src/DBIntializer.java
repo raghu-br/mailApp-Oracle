@@ -5,3 +5,4 @@ public interface DBIntializer {
 	String username = "system";
 	String password = "manager";
 }// interface
+
